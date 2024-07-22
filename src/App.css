@@ -58,8 +58,11 @@ p {
   font-size: 16px;
 }
 
+.container {
+  display: flex;
+}
+
 ul {
-  list-style-type:decimal;
   padding: 0;
 }
 
@@ -69,10 +72,13 @@ ul li {
   padding: 10px;
   border-radius: 4px;
   width: min-content;
+  display: flex;
+  justify-content: space-evenly;
 }
+
 ul button {
-  display:;
   background-color: #de2853;
+  justify-content: space-evenly;
 }
 
 ul button:hover {

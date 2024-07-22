@@ -31,10 +31,10 @@ function TodoList() {
       <form onSubmit={addTask}>
         <h2>Lista de Tareas</h2>
         <ul>
-          {tasks.map((value, index) => (<>
+          {tasks.map((value, index) => (<div class="container">
             <li key={index}>{value}</li>
             <button onClick={() => removeTask(index)}>Eliminar</button>
-          </>))}
+          </div>))}
         </ul>
         <p>Nueva tarea:</p>
         <input value={newTask} type="text" onChange={handleInputChange}></input>
