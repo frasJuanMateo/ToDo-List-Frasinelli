@@ -60,6 +60,7 @@ p {
 
 .container {
   display: flex;
+  justify-content: space-between;
 }
 
 ul {
@@ -71,9 +72,7 @@ ul li {
   margin: 5px 0;
   padding: 10px;
   border-radius: 4px;
-  width: min-content;
-  display: flex;
-  justify-content: space-evenly;
+  width: 150px;
 }
 
 ul button {
